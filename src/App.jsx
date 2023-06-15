@@ -10,6 +10,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import "./style.css";
 const App = () => {
   return (
     <BrowserRouter>

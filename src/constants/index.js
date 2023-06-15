@@ -16,7 +16,7 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    ag,
     tesla,
     shopify,
     carrent,
@@ -46,15 +46,15 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "React-js Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "WordPress Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "Project Manager",
         icon: creator,
     },
 ];
@@ -116,29 +116,35 @@ const technologies = [
 
 const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        title: "Web Developer and Project Manager",
+        company_name: "Apparel Group L.L.C",
+        icon: ag,
+        iconBg: "#fff",
+        date: "Oct 2021 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing and managing the corporate website Apparel Group.",
+            "Help and support the corporate’s brands on their online projects.",
+            "Handling existed websites and update them on demand.",
+            "Developing new websites for the corporate and the brands.",
+            "Creating landing pages and HTML emailers.",
+            "Coordinate with marketing team to enhance SEO and track websites traffic.",
+            "Work closely with graphic designers to create artworks that meet the requirements.",
+
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
+        title: "Front-End Developer",
+        company_name: "Freelancer",
         icon: tesla,
         iconBg: "#E6DEDD",
-        date: "Jan 2021 - Feb 2022",
+        date: "Feb 2021 - Oct 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Information-gathering from the client.",
+            "Planning and Creating the Website Sitemap.",
+            "Design the website.",
+            "Translate Design to code (develop) and give effective feedback.",
+            "Launch and maintain the site (hosting and deploying).",
+
         ],
     },
     {

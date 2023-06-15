@@ -44,14 +44,24 @@ const About = () => {
       </motion.div>
 
       <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
+        variants={fadeIn("", "", 0.5, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        style={{ textAlign: "justify" }}
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        First-rate Informatics Engineer with Innovative tech mind and
+        <span className="imp-text"> 10+ years </span> of total experience in
+        developing and supporting. Focusing on the details. A Web developer with
+        <span className="imp-text"> 5+ years' </span> experience in
+        <span className="imp-text"> React-js </span>,
+        <span className="imp-text"> Next-js </span> ,
+        <span className="imp-text"> JavaScript </span>,
+        <span className="imp-text"> HTML </span>,
+        <span className="imp-text"> CSS </span>,
+        <span className="imp-text"> E-commerce </span> and more skills in
+        designing and managing projects. A solid understanding of
+        <span className="imp-text"> Agile Scrum Methodology </span>and building
+        projects from scratch. Ambitious problem solver with a passion to learn
+        new technologies.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

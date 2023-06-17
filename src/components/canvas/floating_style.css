@@ -1,5 +1,4 @@
-#canvas {
-  cursor: pointer;
+.computer-div {
   animation: float 6s ease-in-out infinite;
 }
 

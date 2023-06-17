@@ -21,11 +21,12 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import wordpress from "./tech/wordpress.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
+import star from "./company/star-logo.webp";
+import diamond from "./company/diamond-logo.webp";
 import ag from "./company/ag-logo.webp";
-import tesla from "./company/tesla.png";
+import free from "./company/free-logo.webp";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -54,11 +55,12 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
+  star,
+  diamond,
   ag,
-  tesla,
+  free,
   carrent,
   jobit,
   tripguide,
+  wordpress,
 };

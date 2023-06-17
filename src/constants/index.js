@@ -15,14 +15,15 @@ import {
     git,
     figma,
     docker,
-    meta,
+    star,
     ag,
-    tesla,
-    shopify,
+    free,
+    diamond,
     carrent,
     jobit,
     tripguide,
     threejs,
+    wordpress,
 } from "../assets";
 
 export const navLinks = [
@@ -85,6 +86,10 @@ const technologies = [
         icon: redux,
     },
     {
+        name: "WordPress",
+        icon: wordpress,
+    },
+    {
         name: "Tailwind CSS",
         icon: tailwind,
     },
@@ -112,6 +117,7 @@ const technologies = [
         name: "docker",
         icon: docker,
     },
+
 ];
 
 const experiences = [
@@ -123,19 +129,21 @@ const experiences = [
         date: "Oct 2021 - Present",
         points: [
             "Developing and managing the corporate website Apparel Group.",
+            "Developing and maintaining web applications using React.js and other related technologies.",
+            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Help and support the corporate’s brands on their online projects.",
             "Handling existed websites and update them on demand.",
             "Developing new websites for the corporate and the brands.",
             "Creating landing pages and HTML emailers.",
             "Coordinate with marketing team to enhance SEO and track websites traffic.",
-            "Work closely with graphic designers to create artworks that meet the requirements.",
-
+            "Implementing responsive design and ensuring cross-browser compatibility.",
+            "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
     {
         title: "Front-End Developer",
         company_name: "Freelancer",
-        icon: tesla,
+        icon: free,
         iconBg: "#E6DEDD",
         date: "Feb 2021 - Oct 2021",
         points: [
@@ -148,29 +156,38 @@ const experiences = [
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
+        title: "IT Engineer and Web Developer",
+        company_name: "Diamond Island Office Equipment L.L.C",
+        icon: diamond,
         iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
+        date: "Jan 2020 – Feb 2021",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
             "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing a new system to enhance the workflow between employees and customers.",
+            "Working on E-commerce website with payment gateway using React, Redux, nodejs.",
+            "Testing Accounting system and report bugs.",
+            "Hardware and software maintenance.",
+            "Troubleshooting and problem solving.",
         ],
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
+        title: "IT Engineer",
+        company_name: "Star Computer",
+        icon: star,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
+        date: "Sep 2012 – Nov 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developing Desktop applications on demands.",
+            "Software and hardware maintenance for laptops, computers, tablets, tablet PC’s and iPad",
+            "Install and maintain networks, terminals, and internet access points.",
+            "Recover lost or deleted data.",
+            "Security cameras (CCTV and IP cameras) with online access.",
+            "Testing new devices and solve any problems if existed.",
+            "Customer service.",
+
         ],
     },
 ];

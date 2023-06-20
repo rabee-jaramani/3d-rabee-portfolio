@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../style";
-import { github } from "../assets";
+import { click } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
@@ -17,7 +17,11 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      onClick={() => window.open(source_code_link, "_blank")}
+      style={{ cursor: "pointer" }}
+    >
       <Tilt
         options={{
           max: 45,
@@ -39,9 +43,10 @@ const ProjectCard = ({
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
-                src={github}
+                src={click}
                 alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+                className="object-contain"
+                style={{ width: "80%" }}
               />
             </div>
           </div>

@@ -1,4 +1,17 @@
 import {
+    proj_1,
+    proj_2,
+    proj_3,
+    proj_4,
+    proj_5,
+    proj_6,
+    proj_7,
+    proj_8,
+    proj_9,
+    proj_10,
+    proj_11,
+    proj_12,
+    proj_0,
     mobile,
     backend,
     creator,
@@ -221,7 +234,7 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Apparel Group",
         description:
             "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
         tags: [
@@ -238,11 +251,11 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
-        source_code_link: "https://github.com/",
+        image: proj_1,
+        source_code_link: "https://apparelglobal.com/en/",
     },
     {
-        name: "Job IT",
+        name: "Portfolio 2",
         description:
             "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
         tags: [
@@ -259,11 +272,11 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
-        source_code_link: "https://github.com/",
+        image: proj_0,
+        source_code_link: "https://jaramani.netlify.app/",
     },
     {
-        name: "Trip Guide",
+        name: "Portfolio 3",
         description:
             "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
         tags: [
@@ -280,8 +293,218 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
-        source_code_link: "https://github.com/",
+        image: proj_2,
+        source_code_link: "https://rabe.netlify.app/",
+    },
+    {
+        name: "AGCTS",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_3,
+        source_code_link: "https://agcts.net/",
+    },
+    {
+        name: "F5 Global",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_4,
+        source_code_link: "https://f5global.com/",
+    },
+    {
+        name: "Portfolio 4",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_5,
+        source_code_link: "https://jad-amer.netlify.app/",
+    },
+    {
+        name: "Portfolio 5",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_6,
+        source_code_link: "https://chri.netlify.app/",
+    },
+    {
+        name: "Portfolio 6",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_7,
+        source_code_link: "https://mazyad-aljaramani.netlify.app/",
+    },
+    {
+        name: "Amazona",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_8,
+        source_code_link: "https://rab.vercel.app/",
+    },
+    {
+        name: "Rose Shop",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_9,
+        source_code_link: "https://rose-shop.netlify.app/",
+    },
+    {
+        name: "Travel Agency",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_10,
+        source_code_link: "https://fastech-travelagency.netlify.app/",
+    },
+    {
+        name: "Resturant",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_11,
+        source_code_link: "https://beirut-lounge.netlify.app/",
+    },
+    {
+        name: "Store Locator",
+        description:
+            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        tags: [
+            {
+                name: "nextjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "supabase",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: proj_12,
+        source_code_link: "https://apparelgroupapps.com/store_locator_react/",
     },
 ];
 

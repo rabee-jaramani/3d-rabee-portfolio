@@ -1,5 +1,6 @@
 .bg-cover {
   background-image: url("../src/assets/herobg.webp");
+  overflow-x: hidden;
 }
 
 .imp-text {
